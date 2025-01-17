@@ -1,0 +1,16 @@
+#to do list
+todo_list= [] #list of todo list
+while True:
+    task = input("enter a task ( or 'quit' to stop): ")
+    if task.lower()=='quit': #case-sensitive match
+        break      #break the loop
+    todo_list.append(task) #change the task
+print ("your to-do list: ")
+for task in todo_list:
+    print(f"- {task}")
+    
+
+
+
+
+
